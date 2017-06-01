@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rest API</title>
+    <meta charset="utf-8">
+    <!--stylesheets-->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel ="stylesheet" href="styles.css">
+    <!--scripts-->         
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <script src="storage.js"></script>
+  </head>
+  <body>
+    
+    <h1>Rest API</h1>
+    <div>
+       <button type="button" id="addNew">Add New Info</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody id="dataPage">             
+        </tbody>
+       </table>
+      </div>
+    <div id="enterPage">
+    <form name="enterForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br>
+       <br>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="age">
+        
+    
+      
+      
+      <button type="button" id="submit">Submit</button>
+      <button type="button" id="cancel">Cancel</button>
+      <br>
+    </form>
+    </div>  
+        
+
+   
+
+  </body>
+</html>
